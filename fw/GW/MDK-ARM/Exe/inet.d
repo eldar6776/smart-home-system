@@ -1,0 +1,11 @@
+.\exe\inet.o: ..\Middlewares\lwip141\src\core\ipv4\inet.c
+.\exe\inet.o: ..\Middlewares\lwip141\src\include\lwip/opt.h
+.\exe\inet.o: ..\Middlewares\TFTP_Server\lwipopts.h
+.\exe\inet.o: ..\Middlewares\lwip141\src\include\lwip/debug.h
+.\exe\inet.o: ..\Middlewares\lwip141\src\include\lwip/arch.h
+.\exe\inet.o: ..\Middlewares\lwip141\port\arch\cc.h
+.\exe\inet.o: ..\Middlewares\lwip141\port\arch\cpu.h
+.\exe\inet.o: ..\Middlewares\lwip141\src\include\lwip/opt.h
+.\exe\inet.o: ..\Middlewares\lwip141\src\include\ipv4\lwip/inet.h
+.\exe\inet.o: ..\Middlewares\lwip141\src\include\lwip/def.h
+.\exe\inet.o: ..\Middlewares\lwip141\src\include\ipv4\lwip/ip_addr.h

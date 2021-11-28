@@ -1,0 +1,4 @@
+stm32l1xx_fsmc.c:102:6:FSMC_NORSRAMDeInit	0	static
+stm32l1xx_fsmc.c:129:6:FSMC_NORSRAMInit	12	static
+stm32l1xx_fsmc.c:213:6:FSMC_NORSRAMStructInit	8	static
+stm32l1xx_fsmc.c:256:6:FSMC_NORSRAMCmd	0	static

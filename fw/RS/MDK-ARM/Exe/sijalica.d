@@ -1,0 +1,10 @@
+.\exe\sijalica.o: ..\Src\Display\Sijalica.c
+.\exe\sijalica.o: C:\Keil\ARM\ARMCC\Bin\..\include\stdlib.h
+.\exe\sijalica.o: ..\Inc\Resource.h
+.\exe\sijalica.o: ..\..\Middlewares\STemWin\inc\GUI.h
+.\exe\sijalica.o: ..\..\Middlewares\STemWin\inc\GUI_ConfDefaults.h
+.\exe\sijalica.o: ..\Inc\GUIConf.h
+.\exe\sijalica.o: ..\..\Middlewares\STemWin\inc\GUI_Type.h
+.\exe\sijalica.o: ..\..\Middlewares\STemWin\inc\LCD.h
+.\exe\sijalica.o: ..\..\Middlewares\STemWin\inc\Global.h
+.\exe\sijalica.o: ..\..\Middlewares\STemWin\inc\GUI_Version.h

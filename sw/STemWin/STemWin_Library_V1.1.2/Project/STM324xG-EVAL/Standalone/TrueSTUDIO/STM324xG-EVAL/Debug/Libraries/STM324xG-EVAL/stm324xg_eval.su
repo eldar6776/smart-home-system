@@ -1,0 +1,14 @@
+stm324xg_eval.c:169:6:STM_EVAL_LEDInit	16	static
+stm324xg_eval.c:196:6:STM_EVAL_LEDOn	0	static
+stm324xg_eval.c:211:6:STM_EVAL_LEDOff	0	static
+stm324xg_eval.c:226:6:STM_EVAL_LEDToggle	0	static
+stm324xg_eval.c:250:6:STM_EVAL_PBInit	40	static
+stm324xg_eval.c:312:10:STM_EVAL_PBGetState	8	static
+stm324xg_eval.c:328:6:STM_EVAL_COMInit	40	static
+stm324xg_eval.c:373:6:SD_LowLevel_DeInit	24	static
+stm324xg_eval.c:417:6:SD_LowLevel_Init	32	static
+stm324xg_eval.c:467:6:SD_LowLevel_DMA_TxConfig	80	static
+stm324xg_eval.c:509:6:SD_LowLevel_DMA_RxConfig	80	static
+stm324xg_eval.c:549:6:sEE_LowLevel_DeInit	24	static
+stm324xg_eval.c:598:6:sEE_LowLevel_Init	32	static
+stm324xg_eval.c:695:6:sEE_LowLevel_DMAConfig	0	static

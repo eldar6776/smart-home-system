@@ -1,0 +1,185 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectName>STM32F746_ST_STM32F746G_DISCO_emWin_Simulation</ProjectName>
+    <SccProjectName />
+    <SccLocalPath />
+    <ProjectGuid>{F9DB65DB-A8D3-33F9-D659-27B7D259D30F}</ProjectGuid>
+    <WindowsTargetPlatformVersion>10.0</WindowsTargetPlatformVersion>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseOfMfc>false</UseOfMfc>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v142</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseOfMfc>false</UseOfMfc>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v142</PlatformToolset>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+    <Import Project="$(VCTargetsPath)Microsoft.Cpp.UpgradeFromVC60.props" />
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+    <Import Project="$(VCTargetsPath)Microsoft.Cpp.UpgradeFromVC60.props" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <OutDir>Windows/GUI/</OutDir>
+    <IntDir>.\Output/emWinSimulation_Release\</IntDir>
+    <LinkIncremental>false</LinkIncremental>
+    <TargetName>$(ProjectName)</TargetName>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <OutDir>Windows/GUI/</OutDir>
+    <IntDir>.\Output/emWinSimulation_Debug\</IntDir>
+    <LinkIncremental>true</LinkIncremental>
+    <TargetName>$(ProjectName)_DEBUG</TargetName>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <ClCompile>
+      <RuntimeLibrary>MultiThreaded</RuntimeLibrary>
+      <InlineFunctionExpansion>OnlyExplicitInline</InlineFunctionExpansion>
+      <StringPooling>true</StringPooling>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <Optimization>MinSpace</Optimization>
+      <SuppressStartupBanner>true</SuppressStartupBanner>
+      <WarningLevel>Level3</WarningLevel>
+      <AdditionalIncludeDirectories>Setup;IP;SEGGER;GUI;Inc;Config;Windows\GUI;Application\SEGGERDEMO;Application\SEGGERDEMO\Src;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <PreprocessorDefinitions>NDEBUG;TARGET_1375_C8_137X;WIN32;_WINDOWS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AssemblerListingLocation>.\Output/emWinSimulation_Release/</AssemblerListingLocation>
+      <PrecompiledHeaderOutputFile>.\Output\emWinSimulation_Release\STM32F746_ST_STM32F746G_DISCO_emWin_Simulation.pch</PrecompiledHeaderOutputFile>
+      <ObjectFileName>.\Output/emWinSimulation_Release/</ObjectFileName>
+      <ProgramDataBaseFileName>.\Output/emWinSimulation_Release/</ProgramDataBaseFileName>
+    </ClCompile>
+    <Midl>
+      <SuppressStartupBanner>true</SuppressStartupBanner>
+      <PreprocessorDefinitions>NDEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <TypeLibraryName>.\Output\emWinSimulation_Release\STM32F746_ST_STM32F746G_DISCO_emWin_Simulation.tlb</TypeLibraryName>
+      <MkTypLibCompatible>true</MkTypLibCompatible>
+      <TargetEnvironment>Win32</TargetEnvironment>
+    </Midl>
+    <ResourceCompile>
+      <Culture>0x0407</Culture>
+      <ResourceOutputFileName>Output/STM32F429_ST_STM32F4x9I_EVAL/emWinSimulation_Release/STM32F746_ST_STM32F746G_DISCO_emWin_Simulation.res</ResourceOutputFileName>
+      <PreprocessorDefinitions>NDEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+    </ResourceCompile>
+    <Bscmake>
+      <SuppressStartupBanner>true</SuppressStartupBanner>
+      <OutputFile>Output/STM32F429_ST_STM32F4x9I_EVAL/emWinSimulator_Release/STM32F746_ST_STM32F746G_DISCO_emWin_Simulation.bsc</OutputFile>
+    </Bscmake>
+    <Link>
+      <SuppressStartupBanner>true</SuppressStartupBanner>
+      <SubSystem>Windows</SubSystem>
+      <IgnoreAllDefaultLibraries>true</IgnoreAllDefaultLibraries>
+      <OutputFile>Windows/GUI/STM32F746_ST_STM32F746G_DISCO_emWin_Simulation.exe</OutputFile>
+      <AdditionalDependencies>ws2_32.lib;winmm.lib;libcmt.lib;%(AdditionalDependencies)</AdditionalDependencies>
+      <ImageHasSafeExceptionHandlers>false</ImageHasSafeExceptionHandlers>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <ClCompile>
+      <RuntimeLibrary>MultiThreadedDebug</RuntimeLibrary>
+      <InlineFunctionExpansion>Default</InlineFunctionExpansion>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <Optimization>Disabled</Optimization>
+      <SuppressStartupBanner>true</SuppressStartupBanner>
+      <WarningLevel>Level3</WarningLevel>
+      <MinimalRebuild>true</MinimalRebuild>
+      <DebugInformationFormat>EditAndContinue</DebugInformationFormat>
+      <AdditionalIncludeDirectories>Setup;IP;SEGGER;GUI;Inc;Config;Windows\GUI;Application\SEGGERDEMO;Application\SEGGERDEMO\Src;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <PreprocessorDefinitions>_DEBUG;TARGET_1375_C8_137X;WIN32;_WINDOWS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AssemblerListingLocation>.\Output/emWinSimulation_Debug/</AssemblerListingLocation>
+      <PrecompiledHeaderOutputFile>.\Output\emWinSimulation_Debug\STM32F746_ST_STM32F746G_DISCO_emWin_Simulation.pch</PrecompiledHeaderOutputFile>
+      <ObjectFileName>.\Output/emWinSimulation_Debug/</ObjectFileName>
+      <ProgramDataBaseFileName>.\Output/emWinSimulation_Debug/</ProgramDataBaseFileName>
+      <BasicRuntimeChecks>EnableFastChecks</BasicRuntimeChecks>
+      <BrowseInformation>true</BrowseInformation>
+    </ClCompile>
+    <Midl>
+      <SuppressStartupBanner>true</SuppressStartupBanner>
+      <PreprocessorDefinitions>_DEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <TypeLibraryName>.\Output\emWinSimulation_Debug\STM32F746_ST_STM32F746G_DISCO_emWin_Simulation.tlb</TypeLibraryName>
+      <MkTypLibCompatible>true</MkTypLibCompatible>
+      <TargetEnvironment>Win32</TargetEnvironment>
+    </Midl>
+    <ResourceCompile>
+      <Culture>0x0409</Culture>
+      <ResourceOutputFileName>Output/STM32F429_ST_STM32F4x9I_EVAL/emWinSimulation_Debug/STM32F746_ST_STM32F746G_DISCO_emWin_Simulation.res</ResourceOutputFileName>
+    </ResourceCompile>
+    <Bscmake>
+      <SuppressStartupBanner>true</SuppressStartupBanner>
+      <OutputFile>Output/STM32F429_ST_STM32F4x9I_EVAL/emWinSIM_Debug/STM32F746_ST_STM32F746G_DISCO_emWin_Simulation.bsc</OutputFile>
+    </Bscmake>
+    <Link>
+      <SuppressStartupBanner>true</SuppressStartupBanner>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <SubSystem>Windows</SubSystem>
+      <IgnoreAllDefaultLibraries>true</IgnoreAllDefaultLibraries>
+      <OutputFile>Windows/GUI/STM32F746_ST_STM32F746G_DISCO_emWin_Simulation_DEBUG.exe</OutputFile>
+      <AdditionalDependencies>ws2_32.lib;winmm.lib;libcmt.lib;%(AdditionalDependencies)</AdditionalDependencies>
+      <ImageHasSafeExceptionHandlers>false</ImageHasSafeExceptionHandlers>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <ClCompile Include="Application\SEGGERDEMO\Src\GUIDEMO.c" />
+    <ClCompile Include="Application\SEGGERDEMO\Src\GUIDEMO_AntialiasedText.c" />
+    <ClCompile Include="Application\SEGGERDEMO\Src\GUIDEMO_Automotive.c" />
+    <ClCompile Include="Application\SEGGERDEMO\Src\GUIDEMO_BarGraph.c" />
+    <ClCompile Include="Application\SEGGERDEMO\Src\GUIDEMO_Bitmap.c" />
+    <ClCompile Include="Application\SEGGERDEMO\Src\GUIDEMO_ColorBar.c" />
+    <ClCompile Include="Application\SEGGERDEMO\Src\GUIDEMO_Cursor.c" />
+    <ClCompile Include="Application\SEGGERDEMO\Src\GUIDEMO_Fading.c" />
+    <ClCompile Include="Application\SEGGERDEMO\Src\GUIDEMO_Graph.c" />
+    <ClCompile Include="Application\SEGGERDEMO\Src\GUIDEMO_IconView.c" />
+    <ClCompile Include="Application\SEGGERDEMO\Src\GUIDEMO_ImageFlow.c" />
+    <ClCompile Include="Application\SEGGERDEMO\Src\GUIDEMO_Intro.c" />
+    <ClCompile Include="Application\SEGGERDEMO\Src\GUIDEMO_Listview.c" />
+    <ClCompile Include="Application\SEGGERDEMO\Src\GUIDEMO_RadialMenu.c" />
+    <ClCompile Include="Application\SEGGERDEMO\Src\GUIDEMO_Resource.c" />
+    <ClCompile Include="Application\SEGGERDEMO\Src\GUIDEMO_Skinning.c" />
+    <ClCompile Include="Application\SEGGERDEMO\Src\GUIDEMO_Speed.c" />
+    <ClCompile Include="Application\SEGGERDEMO\Src\GUIDEMO_Speedometer.c" />
+    <ClCompile Include="Application\SEGGERDEMO\Src\GUIDEMO_TransparentDialog.c" />
+    <ClCompile Include="Application\SEGGERDEMO\Src\GUIDEMO_Treeview.c" />
+    <ClCompile Include="Application\SEGGERDEMO\Src\GUIDEMO_VScreen.c" />
+    <ClCompile Include="Application\SEGGERDEMO\Src\GUIDEMO_WashingMachine.c" />
+    <ClCompile Include="Application\SEGGERDEMO\Src\GUIDEMO_ZoomAndRotate.c" />
+    <ClCompile Include="Application\SEGGERDEMO\Src\IMAGE_SeggerLogo_300x150_565c.c" />
+    <ClCompile Include="Application\SEGGERDEMO\SEGGERDEMO.c" />
+    <ClCompile Include="Windows\GUI\SIM_X.c" />
+    <ClCompile Include="Setup\GUIConf.c" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Application\SEGGERDEMO\Src\GUIDEMO.h" />
+    <ClInclude Include="Application\SEGGERDEMO\SysConfDefaults.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Windows\GUI\GUISIMx86.res" />
+  </ItemGroup>
+  <ItemGroup>
+    <Library Include="Windows\GUI\GUISIMx86.lib" />
+    <Library Include="Windows\GUI\GUIx86_trial.lib" />
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

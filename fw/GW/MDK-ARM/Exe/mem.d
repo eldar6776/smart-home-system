@@ -1,0 +1,16 @@
+.\exe\mem.o: ..\Middlewares\lwip141\src\core\mem.c
+.\exe\mem.o: ..\Middlewares\lwip141\src\include\lwip/opt.h
+.\exe\mem.o: ..\Middlewares\TFTP_Server\lwipopts.h
+.\exe\mem.o: ..\Middlewares\lwip141\src\include\lwip/debug.h
+.\exe\mem.o: ..\Middlewares\lwip141\src\include\lwip/arch.h
+.\exe\mem.o: ..\Middlewares\lwip141\port\arch\cc.h
+.\exe\mem.o: ..\Middlewares\lwip141\port\arch\cpu.h
+.\exe\mem.o: ..\Middlewares\lwip141\src\include\lwip/opt.h
+.\exe\mem.o: ..\Middlewares\lwip141\src\include\lwip/def.h
+.\exe\mem.o: ..\Middlewares\lwip141\src\include\lwip/mem.h
+.\exe\mem.o: ..\Middlewares\lwip141\src\include\lwip/sys.h
+.\exe\mem.o: ..\Middlewares\lwip141\src\include\lwip/stats.h
+.\exe\mem.o: ..\Middlewares\lwip141\src\include\lwip/memp.h
+.\exe\mem.o: ..\Middlewares\lwip141\src\include\lwip/memp_std.h
+.\exe\mem.o: ..\Middlewares\lwip141\src\include\lwip/err.h
+.\exe\mem.o: C:\Keil\ARM\ARMCC\Bin\..\include\string.h

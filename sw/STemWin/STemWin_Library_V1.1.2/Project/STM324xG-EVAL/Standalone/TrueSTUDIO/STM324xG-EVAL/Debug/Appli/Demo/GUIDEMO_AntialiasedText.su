@@ -1,0 +1,2 @@
+GUIDEMO_AntialiasedText.c:128:13:_DrawSample.constprop	120	static
+GUIDEMO_AntialiasedText.c:256:6:GUIDEMO_AntialiasedText	24	static

@@ -1,0 +1,9 @@
+.\exe\usd_error.o: ..\Src\usd_error.c
+.\exe\usd_error.o: C:\Keil\ARM\ARMCC\Bin\..\include\stdlib.h
+.\exe\usd_error.o: ..\Middlewares\STemWinLibrary532\inc\GUI.h
+.\exe\usd_error.o: ..\Middlewares\STemWinLibrary532\inc\GUI_ConfDefaults.h
+.\exe\usd_error.o: ..\Middlewares\Config\GUIConf.h
+.\exe\usd_error.o: ..\Middlewares\STemWinLibrary532\inc\GUI_Type.h
+.\exe\usd_error.o: ..\Middlewares\STemWinLibrary532\inc\LCD.h
+.\exe\usd_error.o: ..\Middlewares\STemWinLibrary532\inc\Global.h
+.\exe\usd_error.o: ..\Middlewares\STemWinLibrary532\inc\GUI_Version.h

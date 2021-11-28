@@ -1,0 +1,13 @@
+.\exe\ip_addr.o: ..\Middlewares\lwip141\src\core\ipv4\ip_addr.c
+.\exe\ip_addr.o: ..\Middlewares\lwip141\src\include\lwip/opt.h
+.\exe\ip_addr.o: ..\Middlewares\TFTP_Server\lwipopts.h
+.\exe\ip_addr.o: ..\Middlewares\lwip141\src\include\lwip/debug.h
+.\exe\ip_addr.o: ..\Middlewares\lwip141\src\include\lwip/arch.h
+.\exe\ip_addr.o: ..\Middlewares\lwip141\port\arch\cc.h
+.\exe\ip_addr.o: ..\Middlewares\lwip141\port\arch\cpu.h
+.\exe\ip_addr.o: ..\Middlewares\lwip141\src\include\lwip/opt.h
+.\exe\ip_addr.o: ..\Middlewares\lwip141\src\include\ipv4\lwip/ip_addr.h
+.\exe\ip_addr.o: ..\Middlewares\lwip141\src\include\lwip/def.h
+.\exe\ip_addr.o: ..\Middlewares\lwip141\src\include\lwip/netif.h
+.\exe\ip_addr.o: ..\Middlewares\lwip141\src\include\lwip/err.h
+.\exe\ip_addr.o: ..\Middlewares\lwip141\src\include\lwip/pbuf.h

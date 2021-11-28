@@ -1,0 +1,3 @@
+bsp.c:49:10:BSP_Init	8	static
+bsp.c:78:10:BSP_GetKeyState	8	static
+bsp.c:107:6:BSP_Pointer_Update	24	static

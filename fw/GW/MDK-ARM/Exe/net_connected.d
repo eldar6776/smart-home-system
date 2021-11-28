@@ -1,0 +1,9 @@
+.\exe\net_connected.o: ..\Src\net_connected.c
+.\exe\net_connected.o: C:\Keil\ARM\ARMCC\Bin\..\include\stdlib.h
+.\exe\net_connected.o: ..\Middlewares\STemWinLibrary532\inc\GUI.h
+.\exe\net_connected.o: ..\Middlewares\STemWinLibrary532\inc\GUI_ConfDefaults.h
+.\exe\net_connected.o: ..\Middlewares\Config\GUIConf.h
+.\exe\net_connected.o: ..\Middlewares\STemWinLibrary532\inc\GUI_Type.h
+.\exe\net_connected.o: ..\Middlewares\STemWinLibrary532\inc\LCD.h
+.\exe\net_connected.o: ..\Middlewares\STemWinLibrary532\inc\Global.h
+.\exe\net_connected.o: ..\Middlewares\STemWinLibrary532\inc\GUI_Version.h

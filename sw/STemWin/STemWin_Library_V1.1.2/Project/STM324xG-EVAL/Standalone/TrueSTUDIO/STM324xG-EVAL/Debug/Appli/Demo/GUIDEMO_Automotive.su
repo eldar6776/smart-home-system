@@ -1,0 +1,6 @@
+GUIDEMO_Automotive.c:343:14:_GetAngle_1	8	static
+GUIDEMO_Automotive.c:407:13:_Draw_1	24	static
+GUIDEMO_Automotive.c:375:13:_Draw_0	24	static
+GUIDEMO_Automotive.c:301:13:_WriteGear	24	static
+GUIDEMO_Automotive.c:321:14:_GetAngle_0	8	static
+GUIDEMO_Automotive.c:535:6:GUIDEMO_Automotive	200	static

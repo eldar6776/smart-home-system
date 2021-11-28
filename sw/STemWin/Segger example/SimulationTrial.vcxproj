@@ -1,0 +1,295 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <SccProjectName />
+    <SccLocalPath />
+    <ProjectGuid>{ED1B800C-633A-4415-87F5-8BDDFD55D32E}</ProjectGuid>
+    <WindowsTargetPlatformVersion>10.0</WindowsTargetPlatformVersion>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <PlatformToolset>v142</PlatformToolset>
+    <UseOfMfc>false</UseOfMfc>
+    <CharacterSet>MultiByte</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <PlatformToolset>v142</PlatformToolset>
+    <UseOfMfc>false</UseOfMfc>
+    <CharacterSet>MultiByte</CharacterSet>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+    <Import Project="$(VCTargetsPath)Microsoft.Cpp.UpgradeFromVC60.props" />
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+    <Import Project="$(VCTargetsPath)Microsoft.Cpp.UpgradeFromVC60.props" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <OutDir>.\Exe\</OutDir>
+    <IntDir>.\Output\Debug\</IntDir>
+    <LinkIncremental>true</LinkIncremental>
+    <TargetName>GUISimulationDebug</TargetName>
+    <IncludePath>D:\GitHub\uCOSProject\Software\User\hmi\resource;D:\GitHub\uCOSProject\Software\Driver;D:\GitHub\uCOSProject\Software\User\hmi;$(IncludePath)</IncludePath>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <OutDir>.\Output\Release\</OutDir>
+    <IntDir>.\Output\Release\</IntDir>
+    <LinkIncremental>false</LinkIncremental>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <ClCompile>
+      <RuntimeLibrary>MultiThreadedDebug</RuntimeLibrary>
+      <InlineFunctionExpansion>Default</InlineFunctionExpansion>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <Optimization>Disabled</Optimization>
+      <SuppressStartupBanner>true</SuppressStartupBanner>
+      <WarningLevel>Level3</WarningLevel>
+      <MinimalRebuild>true</MinimalRebuild>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+      <AdditionalIncludeDirectories>GUI\Include;Config;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <PreprocessorDefinitions>_DEBUG;TARGET_1375_C8_137X;WIN32;_WINDOWS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AssemblerListingLocation>.\Output\Debug\</AssemblerListingLocation>
+      <PrecompiledHeaderOutputFile>.\Output\Debug\SimulationTrial.pch</PrecompiledHeaderOutputFile>
+      <ObjectFileName>.\Output\Debug\</ObjectFileName>
+      <ProgramDataBaseFileName>.\Output\Debug\</ProgramDataBaseFileName>
+      <BasicRuntimeChecks>EnableFastChecks</BasicRuntimeChecks>
+    </ClCompile>
+    <Midl>
+      <SuppressStartupBanner>true</SuppressStartupBanner>
+      <PreprocessorDefinitions>_DEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <TypeLibraryName>.\Output\Debug\SimulationTrial.tlb</TypeLibraryName>
+      <MkTypLibCompatible>true</MkTypLibCompatible>
+      <TargetEnvironment>Win32</TargetEnvironment>
+    </Midl>
+    <ResourceCompile>
+      <Culture>0x0409</Culture>
+    </ResourceCompile>
+    <Bscmake>
+      <SuppressStartupBanner>true</SuppressStartupBanner>
+      <OutputFile>.\Output\Debug\SimulationTrial.bsc</OutputFile>
+    </Bscmake>
+    <Link>
+      <SuppressStartupBanner>true</SuppressStartupBanner>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <SubSystem>Windows</SubSystem>
+      <IgnoreAllDefaultLibraries>false</IgnoreAllDefaultLibraries>
+      <OutputFile>Exe/GUISimulationDebug.exe</OutputFile>
+      <AdditionalDependencies>winmm.lib;libcmt.lib;ws2_32.lib;%(AdditionalDependencies)</AdditionalDependencies>
+      <IgnoreSpecificDefaultLibraries>LIBC.lib;LIBCMTD.lib</IgnoreSpecificDefaultLibraries>
+      <ImageHasSafeExceptionHandlers>false</ImageHasSafeExceptionHandlers>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <ClCompile>
+      <RuntimeLibrary>MultiThreaded</RuntimeLibrary>
+      <InlineFunctionExpansion>Default</InlineFunctionExpansion>
+      <StringPooling>true</StringPooling>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <Optimization>MinSpace</Optimization>
+      <SuppressStartupBanner>true</SuppressStartupBanner>
+      <WarningLevel>Level3</WarningLevel>
+      <AdditionalIncludeDirectories>GUI\Include;Config;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <PreprocessorDefinitions>NDEBUG;TARGET_1375_C8_137X;WIN32;_WINDOWS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AssemblerListingLocation>.\Output\Release\</AssemblerListingLocation>
+      <PrecompiledHeaderOutputFile>.\Output\Release\SimulationTrial.pch</PrecompiledHeaderOutputFile>
+      <ObjectFileName>.\Output\Release\</ObjectFileName>
+      <ProgramDataBaseFileName>.\Output\Release\</ProgramDataBaseFileName>
+    </ClCompile>
+    <Midl>
+      <SuppressStartupBanner>true</SuppressStartupBanner>
+      <PreprocessorDefinitions>NDEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <TypeLibraryName>.\Output\Release\SimulationTrial.tlb</TypeLibraryName>
+      <MkTypLibCompatible>true</MkTypLibCompatible>
+      <TargetEnvironment>Win32</TargetEnvironment>
+    </Midl>
+    <ResourceCompile>
+      <Culture>0x0407</Culture>
+      <PreprocessorDefinitions>NDEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+    </ResourceCompile>
+    <Bscmake>
+      <SuppressStartupBanner>true</SuppressStartupBanner>
+      <OutputFile>.\Output\Release\SimulationTrial.bsc</OutputFile>
+    </Bscmake>
+    <Link>
+      <SuppressStartupBanner>true</SuppressStartupBanner>
+      <GenerateDebugInformation>false</GenerateDebugInformation>
+      <SubSystem>Windows</SubSystem>
+      <IgnoreAllDefaultLibraries>true</IgnoreAllDefaultLibraries>
+      <OutputFile>Exe/GUISimulation.exe</OutputFile>
+      <AdditionalDependencies>winmm.lib;libcmt.lib;ws2_32.lib;%(AdditionalDependencies)</AdditionalDependencies>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <ClCompile Include="..\uCOSProject\Software\STemWin\png\adler32.c" />
+    <ClCompile Include="..\uCOSProject\Software\STemWin\png\compress.c" />
+    <ClCompile Include="..\uCOSProject\Software\STemWin\png\crc32.c" />
+    <ClCompile Include="..\uCOSProject\Software\STemWin\png\deflate.c" />
+    <ClCompile Include="..\uCOSProject\Software\STemWin\png\GUI_PNG.c" />
+    <ClCompile Include="..\uCOSProject\Software\STemWin\png\IMAGE_PNG.c" />
+    <ClCompile Include="..\uCOSProject\Software\STemWin\png\infback.c" />
+    <ClCompile Include="..\uCOSProject\Software\STemWin\png\inffast.c" />
+    <ClCompile Include="..\uCOSProject\Software\STemWin\png\inflate.c" />
+    <ClCompile Include="..\uCOSProject\Software\STemWin\png\inftrees.c" />
+    <ClCompile Include="..\uCOSProject\Software\STemWin\png\png.c" />
+    <ClCompile Include="..\uCOSProject\Software\STemWin\png\pngerror.c" />
+    <ClCompile Include="..\uCOSProject\Software\STemWin\png\pngget.c" />
+    <ClCompile Include="..\uCOSProject\Software\STemWin\png\pngmem.c" />
+    <ClCompile Include="..\uCOSProject\Software\STemWin\png\pngpread.c" />
+    <ClCompile Include="..\uCOSProject\Software\STemWin\png\pngread.c" />
+    <ClCompile Include="..\uCOSProject\Software\STemWin\png\pngrio.c" />
+    <ClCompile Include="..\uCOSProject\Software\STemWin\png\pngrtran.c" />
+    <ClCompile Include="..\uCOSProject\Software\STemWin\png\pngrutil.c" />
+    <ClCompile Include="..\uCOSProject\Software\STemWin\png\pngset.c" />
+    <ClCompile Include="..\uCOSProject\Software\STemWin\png\pngtrans.c" />
+    <ClCompile Include="..\uCOSProject\Software\STemWin\png\pngwio.c" />
+    <ClCompile Include="..\uCOSProject\Software\STemWin\png\pngwrite.c" />
+    <ClCompile Include="..\uCOSProject\Software\STemWin\png\pngwtran.c" />
+    <ClCompile Include="..\uCOSProject\Software\STemWin\png\pngwutil.c" />
+    <ClCompile Include="..\uCOSProject\Software\STemWin\png\trees.c" />
+    <ClCompile Include="..\uCOSProject\Software\STemWin\png\uncompr.c" />
+    <ClCompile Include="..\uCOSProject\Software\STemWin\png\zutil.c" />
+    <ClCompile Include="..\uCOSProject\Software\User\hmi\about.c" />
+    <ClCompile Include="..\uCOSProject\Software\User\hmi\hmi.c" />
+    <ClCompile Include="..\uCOSProject\Software\User\hmi\menu.c" />
+    <ClCompile Include="..\uCOSProject\Software\User\hmi\resource\res.c" />
+    <ClCompile Include="..\uCOSProject\Software\User\hmi\stat_bar.c" />
+    <ClCompile Include="..\uCOSProject\Software\User\hmi\welcome.c" />
+    <ClCompile Include="Application\GUIDEMO.c" />
+    <ClCompile Include="Application\GUIDEMO_AntialiasedText.c" />
+    <ClCompile Include="Application\GUIDEMO_Automotive.c" />
+    <ClCompile Include="Application\GUIDEMO_BarGraph.c" />
+    <ClCompile Include="Application\GUIDEMO_Bitmap.c" />
+    <ClCompile Include="Application\GUIDEMO_ColorBar.c" />
+    <ClCompile Include="Application\GUIDEMO_Conf.c" />
+    <ClCompile Include="Application\GUIDEMO_Cursor.c" />
+    <ClCompile Include="Application\GUIDEMO_Fading.c" />
+    <ClCompile Include="Application\GUIDEMO_Graph.c" />
+    <ClCompile Include="Application\GUIDEMO_IconView.c" />
+    <ClCompile Include="Application\GUIDEMO_ImageFlow.c" />
+    <ClCompile Include="Application\GUIDEMO_Intro.c" />
+    <ClCompile Include="Application\GUIDEMO_Listview.c" />
+    <ClCompile Include="Application\GUIDEMO_RadialMenu.c" />
+    <ClCompile Include="Application\GUIDEMO_Resource.c" />
+    <ClCompile Include="Application\GUIDEMO_Skinning.c" />
+    <ClCompile Include="Application\GUIDEMO_Speed.c" />
+    <ClCompile Include="Application\GUIDEMO_Speedometer.c" />
+    <ClCompile Include="Application\GUIDEMO_Start.c" />
+    <ClCompile Include="Application\GUIDEMO_TransparentDialog.c" />
+    <ClCompile Include="Application\GUIDEMO_Treeview.c" />
+    <ClCompile Include="Application\GUIDEMO_VScreen.c" />
+    <ClCompile Include="Application\GUIDEMO_WashingMachine.c" />
+    <ClCompile Include="Application\GUIDEMO_ZoomAndRotate.c" />
+    <ClCompile Include="Config\GUIConf.c" />
+    <ClCompile Include="Config\LCDConf.c" />
+    <ClCompile Include="Config\SIMConf.c" />
+    <ClCompile Include="Simulation\WinMain.c" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\..\..\Program Files\Microsoft Visual Studio\VC98\Include\BASETSD.H" />
+    <ClInclude Include="..\uCOSProject\Software\STemWin\png\crc32.h" />
+    <ClInclude Include="..\uCOSProject\Software\STemWin\png\deflate.h" />
+    <ClInclude Include="..\uCOSProject\Software\STemWin\png\GUI_PNG_Private.h" />
+    <ClInclude Include="..\uCOSProject\Software\STemWin\png\inffast.h" />
+    <ClInclude Include="..\uCOSProject\Software\STemWin\png\inffixed.h" />
+    <ClInclude Include="..\uCOSProject\Software\STemWin\png\inflate.h" />
+    <ClInclude Include="..\uCOSProject\Software\STemWin\png\inftrees.h" />
+    <ClInclude Include="..\uCOSProject\Software\STemWin\png\png.h" />
+    <ClInclude Include="..\uCOSProject\Software\STemWin\png\pngconf.h" />
+    <ClInclude Include="..\uCOSProject\Software\STemWin\png\pngdebug.h" />
+    <ClInclude Include="..\uCOSProject\Software\STemWin\png\pnginfo.h" />
+    <ClInclude Include="..\uCOSProject\Software\STemWin\png\pnglibconf.h" />
+    <ClInclude Include="..\uCOSProject\Software\STemWin\png\pngpriv.h" />
+    <ClInclude Include="..\uCOSProject\Software\STemWin\png\pngstruct.h" />
+    <ClInclude Include="..\uCOSProject\Software\STemWin\png\trees.h" />
+    <ClInclude Include="..\uCOSProject\Software\STemWin\png\zconf.h" />
+    <ClInclude Include="..\uCOSProject\Software\STemWin\png\zlib.h" />
+    <ClInclude Include="..\uCOSProject\Software\STemWin\png\zutil.h" />
+    <ClInclude Include="..\uCOSProject\Software\User\hmi\hmi.h" />
+    <ClInclude Include="..\uCOSProject\Software\User\hmi\resource\res.h" />
+    <ClInclude Include="Application\GUIDEMO.H" />
+    <ClInclude Include="Config\GUIConf.h" />
+    <ClInclude Include="Config\LCDConf.h" />
+    <ClInclude Include="GUI\Include\BUTTON.h" />
+    <ClInclude Include="GUI\Include\CALENDAR.h" />
+    <ClInclude Include="GUI\Include\CHECKBOX.h" />
+    <ClInclude Include="GUI\Include\CHOOSECOLOR.h" />
+    <ClInclude Include="GUI\Include\CHOOSEFILE.h" />
+    <ClInclude Include="GUI\Include\DIALOG.h" />
+    <ClInclude Include="GUI\Include\DIALOG_Intern.h" />
+    <ClInclude Include="GUI\Include\DROPDOWN.h" />
+    <ClInclude Include="GUI\Include\EDIT.h" />
+    <ClInclude Include="GUI\Include\EDIT_Private.h" />
+    <ClInclude Include="GUI\Include\FRAMEWIN.h" />
+    <ClInclude Include="GUI\Include\Global.h" />
+    <ClInclude Include="GUI\Include\GRAPH.h" />
+    <ClInclude Include="GUI\Include\GUI.h" />
+    <ClInclude Include="GUI\Include\GUI_ARRAY.h" />
+    <ClInclude Include="GUI\Include\GUI_ConfDefaults.h" />
+    <ClInclude Include="GUI\Include\GUI_Debug.h" />
+    <ClInclude Include="GUI\Include\GUI_FontIntern.h" />
+    <ClInclude Include="GUI\Include\GUI_HOOK.h" />
+    <ClInclude Include="GUI\Include\GUI_Private.h" />
+    <ClInclude Include="GUI\Include\GUI_SetOrientation.h" />
+    <ClInclude Include="GUI\Include\GUI_SetOrientationCX.h" />
+    <ClInclude Include="GUI\Include\GUI_SIM_Win32.h" />
+    <ClInclude Include="GUI\Include\GUI_Type.h" />
+    <ClInclude Include="GUI\Include\GUI_Version.h" />
+    <ClInclude Include="GUI\Include\GUI_VNC.h" />
+    <ClInclude Include="GUI\Include\HEADER.h" />
+    <ClInclude Include="GUI\Include\ICONVIEW.h" />
+    <ClInclude Include="GUI\Include\IMAGE.h" />
+    <ClInclude Include="GUI\Include\KNOB.h" />
+    <ClInclude Include="GUI\Include\LCD.h" />
+    <ClInclude Include="GUI\Include\LCD_ConfDefaults.h" />
+    <ClInclude Include="GUI\Include\LCD_Private.h" />
+    <ClInclude Include="GUI\Include\LCD_Protected.h" />
+    <ClInclude Include="GUI\Include\LCD_SIM.h" />
+    <ClInclude Include="GUI\Include\LISTBOX.h" />
+    <ClInclude Include="GUI\Include\LISTVIEW.h" />
+    <ClInclude Include="GUI\Include\LISTWHEEL.h" />
+    <ClInclude Include="GUI\Include\MENU.h" />
+    <ClInclude Include="GUI\Include\MESSAGEBOX.h" />
+    <ClInclude Include="GUI\Include\MULTIEDIT.h" />
+    <ClInclude Include="GUI\Include\MULTIPAGE.h" />
+    <ClInclude Include="GUI\Include\PROGBAR.h" />
+    <ClInclude Include="GUI\Include\RADIO.h" />
+    <ClInclude Include="GUI\Include\SCROLLBAR.h" />
+    <ClInclude Include="GUI\Include\SIM.h" />
+    <ClInclude Include="GUI\Include\SIM_GetRegions.h" />
+    <ClInclude Include="GUI\Include\SLIDER.h" />
+    <ClInclude Include="GUI\Include\SPINBOX.h" />
+    <ClInclude Include="GUI\Include\TEXT.h" />
+    <ClInclude Include="GUI\Include\TREEVIEW.h" />
+    <ClInclude Include="GUI\Include\WIDGET.h" />
+    <ClInclude Include="GUI\Include\WM.h" />
+    <ClInclude Include="GUI\Include\WM_GUI.h" />
+    <ClInclude Include="GUI\Include\WM_Intern.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <Library Include="GUI\Library\STemWin532_WIN32.lib" />
+    <Library Include="Simulation\GUISim.lib" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Simulation\Simulation.res" />
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

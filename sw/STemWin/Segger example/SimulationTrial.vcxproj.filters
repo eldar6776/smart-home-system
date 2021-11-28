@@ -1,0 +1,475 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Application">
+      <UniqueIdentifier>{6f7bcdb7-a23a-4c7a-be30-6e3fa576f2f1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Config">
+      <UniqueIdentifier>{7adf334f-8405-4cc4-835c-84f94179dcc1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="GUI">
+      <UniqueIdentifier>{56fe8a86-cef4-4a5d-a4b8-c09e1f58a89d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="GUI\Include">
+      <UniqueIdentifier>{91deae29-abef-4a69-bb10-c6de4777b49b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="GUI\Library">
+      <UniqueIdentifier>{f7d16985-0061-4dce-8d2b-c1a961bbb2b1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Simulation">
+      <UniqueIdentifier>{59c5a398-8b9e-4c28-a346-5b8cd5616bc0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="MyApp">
+      <UniqueIdentifier>{5b1c51de-480f-4e6c-808f-f27f5d5f6ea8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="MyRes">
+      <UniqueIdentifier>{5916ff2b-6909-44cc-ba48-99da0bc66e56}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="MyPNG">
+      <UniqueIdentifier>{249a1af4-9375-4e15-9596-488219132df8}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Application\GUIDEMO.c">
+      <Filter>Application</Filter>
+    </ClCompile>
+    <ClCompile Include="Application\GUIDEMO_AntialiasedText.c">
+      <Filter>Application</Filter>
+    </ClCompile>
+    <ClCompile Include="Application\GUIDEMO_Automotive.c">
+      <Filter>Application</Filter>
+    </ClCompile>
+    <ClCompile Include="Application\GUIDEMO_BarGraph.c">
+      <Filter>Application</Filter>
+    </ClCompile>
+    <ClCompile Include="Application\GUIDEMO_Bitmap.c">
+      <Filter>Application</Filter>
+    </ClCompile>
+    <ClCompile Include="Application\GUIDEMO_ColorBar.c">
+      <Filter>Application</Filter>
+    </ClCompile>
+    <ClCompile Include="Application\GUIDEMO_Conf.c">
+      <Filter>Application</Filter>
+    </ClCompile>
+    <ClCompile Include="Application\GUIDEMO_Cursor.c">
+      <Filter>Application</Filter>
+    </ClCompile>
+    <ClCompile Include="Application\GUIDEMO_Fading.c">
+      <Filter>Application</Filter>
+    </ClCompile>
+    <ClCompile Include="Application\GUIDEMO_Graph.c">
+      <Filter>Application</Filter>
+    </ClCompile>
+    <ClCompile Include="Application\GUIDEMO_IconView.c">
+      <Filter>Application</Filter>
+    </ClCompile>
+    <ClCompile Include="Application\GUIDEMO_ImageFlow.c">
+      <Filter>Application</Filter>
+    </ClCompile>
+    <ClCompile Include="Application\GUIDEMO_Intro.c">
+      <Filter>Application</Filter>
+    </ClCompile>
+    <ClCompile Include="Application\GUIDEMO_Listview.c">
+      <Filter>Application</Filter>
+    </ClCompile>
+    <ClCompile Include="Application\GUIDEMO_RadialMenu.c">
+      <Filter>Application</Filter>
+    </ClCompile>
+    <ClCompile Include="Application\GUIDEMO_Resource.c">
+      <Filter>Application</Filter>
+    </ClCompile>
+    <ClCompile Include="Application\GUIDEMO_Skinning.c">
+      <Filter>Application</Filter>
+    </ClCompile>
+    <ClCompile Include="Application\GUIDEMO_Speed.c">
+      <Filter>Application</Filter>
+    </ClCompile>
+    <ClCompile Include="Application\GUIDEMO_Speedometer.c">
+      <Filter>Application</Filter>
+    </ClCompile>
+    <ClCompile Include="Application\GUIDEMO_Start.c">
+      <Filter>Application</Filter>
+    </ClCompile>
+    <ClCompile Include="Application\GUIDEMO_TransparentDialog.c">
+      <Filter>Application</Filter>
+    </ClCompile>
+    <ClCompile Include="Application\GUIDEMO_Treeview.c">
+      <Filter>Application</Filter>
+    </ClCompile>
+    <ClCompile Include="Application\GUIDEMO_VScreen.c">
+      <Filter>Application</Filter>
+    </ClCompile>
+    <ClCompile Include="Application\GUIDEMO_WashingMachine.c">
+      <Filter>Application</Filter>
+    </ClCompile>
+    <ClCompile Include="Application\GUIDEMO_ZoomAndRotate.c">
+      <Filter>Application</Filter>
+    </ClCompile>
+    <ClCompile Include="Config\LCDConf.c">
+      <Filter>Config</Filter>
+    </ClCompile>
+    <ClCompile Include="Config\SIMConf.c">
+      <Filter>Config</Filter>
+    </ClCompile>
+    <ClCompile Include="Simulation\WinMain.c">
+      <Filter>Simulation</Filter>
+    </ClCompile>
+    <ClCompile Include="..\uCOSProject\Software\User\hmi\hmi.c">
+      <Filter>MyApp</Filter>
+    </ClCompile>
+    <ClCompile Include="..\uCOSProject\Software\User\hmi\menu.c">
+      <Filter>MyApp</Filter>
+    </ClCompile>
+    <ClCompile Include="Config\GUIConf.c">
+      <Filter>Config</Filter>
+    </ClCompile>
+    <ClCompile Include="..\uCOSProject\Software\User\hmi\stat_bar.c">
+      <Filter>MyApp</Filter>
+    </ClCompile>
+    <ClCompile Include="..\uCOSProject\Software\User\hmi\resource\res.c">
+      <Filter>MyRes</Filter>
+    </ClCompile>
+    <ClCompile Include="..\uCOSProject\Software\STemWin\png\adler32.c">
+      <Filter>MyPNG</Filter>
+    </ClCompile>
+    <ClCompile Include="..\uCOSProject\Software\STemWin\png\compress.c">
+      <Filter>MyPNG</Filter>
+    </ClCompile>
+    <ClCompile Include="..\uCOSProject\Software\STemWin\png\crc32.c">
+      <Filter>MyPNG</Filter>
+    </ClCompile>
+    <ClCompile Include="..\uCOSProject\Software\STemWin\png\deflate.c">
+      <Filter>MyPNG</Filter>
+    </ClCompile>
+    <ClCompile Include="..\uCOSProject\Software\STemWin\png\GUI_PNG.c">
+      <Filter>MyPNG</Filter>
+    </ClCompile>
+    <ClCompile Include="..\uCOSProject\Software\STemWin\png\IMAGE_PNG.c">
+      <Filter>MyPNG</Filter>
+    </ClCompile>
+    <ClCompile Include="..\uCOSProject\Software\STemWin\png\infback.c">
+      <Filter>MyPNG</Filter>
+    </ClCompile>
+    <ClCompile Include="..\uCOSProject\Software\STemWin\png\inffast.c">
+      <Filter>MyPNG</Filter>
+    </ClCompile>
+    <ClCompile Include="..\uCOSProject\Software\STemWin\png\inflate.c">
+      <Filter>MyPNG</Filter>
+    </ClCompile>
+    <ClCompile Include="..\uCOSProject\Software\STemWin\png\inftrees.c">
+      <Filter>MyPNG</Filter>
+    </ClCompile>
+    <ClCompile Include="..\uCOSProject\Software\STemWin\png\png.c">
+      <Filter>MyPNG</Filter>
+    </ClCompile>
+    <ClCompile Include="..\uCOSProject\Software\STemWin\png\pngerror.c">
+      <Filter>MyPNG</Filter>
+    </ClCompile>
+    <ClCompile Include="..\uCOSProject\Software\STemWin\png\pngget.c">
+      <Filter>MyPNG</Filter>
+    </ClCompile>
+    <ClCompile Include="..\uCOSProject\Software\STemWin\png\pngmem.c">
+      <Filter>MyPNG</Filter>
+    </ClCompile>
+    <ClCompile Include="..\uCOSProject\Software\STemWin\png\pngpread.c">
+      <Filter>MyPNG</Filter>
+    </ClCompile>
+    <ClCompile Include="..\uCOSProject\Software\STemWin\png\pngread.c">
+      <Filter>MyPNG</Filter>
+    </ClCompile>
+    <ClCompile Include="..\uCOSProject\Software\STemWin\png\pngrio.c">
+      <Filter>MyPNG</Filter>
+    </ClCompile>
+    <ClCompile Include="..\uCOSProject\Software\STemWin\png\pngrtran.c">
+      <Filter>MyPNG</Filter>
+    </ClCompile>
+    <ClCompile Include="..\uCOSProject\Software\STemWin\png\pngrutil.c">
+      <Filter>MyPNG</Filter>
+    </ClCompile>
+    <ClCompile Include="..\uCOSProject\Software\STemWin\png\pngset.c">
+      <Filter>MyPNG</Filter>
+    </ClCompile>
+    <ClCompile Include="..\uCOSProject\Software\STemWin\png\pngtrans.c">
+      <Filter>MyPNG</Filter>
+    </ClCompile>
+    <ClCompile Include="..\uCOSProject\Software\STemWin\png\pngwio.c">
+      <Filter>MyPNG</Filter>
+    </ClCompile>
+    <ClCompile Include="..\uCOSProject\Software\STemWin\png\pngwrite.c">
+      <Filter>MyPNG</Filter>
+    </ClCompile>
+    <ClCompile Include="..\uCOSProject\Software\STemWin\png\pngwtran.c">
+      <Filter>MyPNG</Filter>
+    </ClCompile>
+    <ClCompile Include="..\uCOSProject\Software\STemWin\png\pngwutil.c">
+      <Filter>MyPNG</Filter>
+    </ClCompile>
+    <ClCompile Include="..\uCOSProject\Software\STemWin\png\trees.c">
+      <Filter>MyPNG</Filter>
+    </ClCompile>
+    <ClCompile Include="..\uCOSProject\Software\STemWin\png\uncompr.c">
+      <Filter>MyPNG</Filter>
+    </ClCompile>
+    <ClCompile Include="..\uCOSProject\Software\STemWin\png\zutil.c">
+      <Filter>MyPNG</Filter>
+    </ClCompile>
+    <ClCompile Include="..\uCOSProject\Software\User\hmi\about.c">
+      <Filter>MyApp</Filter>
+    </ClCompile>
+    <ClCompile Include="..\uCOSProject\Software\User\hmi\welcome.c">
+      <Filter>MyApp</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Application\GUIDEMO.H">
+      <Filter>Application</Filter>
+    </ClInclude>
+    <ClInclude Include="Config\LCDConf.h">
+      <Filter>Config</Filter>
+    </ClInclude>
+    <ClInclude Include="GUI\Include\BUTTON.h">
+      <Filter>GUI\Include</Filter>
+    </ClInclude>
+    <ClInclude Include="GUI\Include\CALENDAR.h">
+      <Filter>GUI\Include</Filter>
+    </ClInclude>
+    <ClInclude Include="GUI\Include\CHECKBOX.h">
+      <Filter>GUI\Include</Filter>
+    </ClInclude>
+    <ClInclude Include="GUI\Include\CHOOSECOLOR.h">
+      <Filter>GUI\Include</Filter>
+    </ClInclude>
+    <ClInclude Include="GUI\Include\CHOOSEFILE.h">
+      <Filter>GUI\Include</Filter>
+    </ClInclude>
+    <ClInclude Include="GUI\Include\DIALOG.h">
+      <Filter>GUI\Include</Filter>
+    </ClInclude>
+    <ClInclude Include="GUI\Include\DIALOG_Intern.h">
+      <Filter>GUI\Include</Filter>
+    </ClInclude>
+    <ClInclude Include="GUI\Include\DROPDOWN.h">
+      <Filter>GUI\Include</Filter>
+    </ClInclude>
+    <ClInclude Include="GUI\Include\EDIT.h">
+      <Filter>GUI\Include</Filter>
+    </ClInclude>
+    <ClInclude Include="GUI\Include\EDIT_Private.h">
+      <Filter>GUI\Include</Filter>
+    </ClInclude>
+    <ClInclude Include="GUI\Include\FRAMEWIN.h">
+      <Filter>GUI\Include</Filter>
+    </ClInclude>
+    <ClInclude Include="GUI\Include\Global.h">
+      <Filter>GUI\Include</Filter>
+    </ClInclude>
+    <ClInclude Include="GUI\Include\GRAPH.h">
+      <Filter>GUI\Include</Filter>
+    </ClInclude>
+    <ClInclude Include="GUI\Include\GUI.h">
+      <Filter>GUI\Include</Filter>
+    </ClInclude>
+    <ClInclude Include="GUI\Include\GUI_ARRAY.h">
+      <Filter>GUI\Include</Filter>
+    </ClInclude>
+    <ClInclude Include="GUI\Include\GUI_ConfDefaults.h">
+      <Filter>GUI\Include</Filter>
+    </ClInclude>
+    <ClInclude Include="GUI\Include\GUI_Debug.h">
+      <Filter>GUI\Include</Filter>
+    </ClInclude>
+    <ClInclude Include="GUI\Include\GUI_FontIntern.h">
+      <Filter>GUI\Include</Filter>
+    </ClInclude>
+    <ClInclude Include="GUI\Include\GUI_HOOK.h">
+      <Filter>GUI\Include</Filter>
+    </ClInclude>
+    <ClInclude Include="GUI\Include\GUI_Private.h">
+      <Filter>GUI\Include</Filter>
+    </ClInclude>
+    <ClInclude Include="GUI\Include\GUI_SetOrientation.h">
+      <Filter>GUI\Include</Filter>
+    </ClInclude>
+    <ClInclude Include="GUI\Include\GUI_SetOrientationCX.h">
+      <Filter>GUI\Include</Filter>
+    </ClInclude>
+    <ClInclude Include="GUI\Include\GUI_SIM_Win32.h">
+      <Filter>GUI\Include</Filter>
+    </ClInclude>
+    <ClInclude Include="GUI\Include\GUI_Type.h">
+      <Filter>GUI\Include</Filter>
+    </ClInclude>
+    <ClInclude Include="GUI\Include\GUI_Version.h">
+      <Filter>GUI\Include</Filter>
+    </ClInclude>
+    <ClInclude Include="GUI\Include\GUI_VNC.h">
+      <Filter>GUI\Include</Filter>
+    </ClInclude>
+    <ClInclude Include="GUI\Include\HEADER.h">
+      <Filter>GUI\Include</Filter>
+    </ClInclude>
+    <ClInclude Include="GUI\Include\ICONVIEW.h">
+      <Filter>GUI\Include</Filter>
+    </ClInclude>
+    <ClInclude Include="GUI\Include\IMAGE.h">
+      <Filter>GUI\Include</Filter>
+    </ClInclude>
+    <ClInclude Include="GUI\Include\KNOB.h">
+      <Filter>GUI\Include</Filter>
+    </ClInclude>
+    <ClInclude Include="GUI\Include\LCD.h">
+      <Filter>GUI\Include</Filter>
+    </ClInclude>
+    <ClInclude Include="GUI\Include\LCD_ConfDefaults.h">
+      <Filter>GUI\Include</Filter>
+    </ClInclude>
+    <ClInclude Include="GUI\Include\LCD_Private.h">
+      <Filter>GUI\Include</Filter>
+    </ClInclude>
+    <ClInclude Include="GUI\Include\LCD_Protected.h">
+      <Filter>GUI\Include</Filter>
+    </ClInclude>
+    <ClInclude Include="GUI\Include\LCD_SIM.h">
+      <Filter>GUI\Include</Filter>
+    </ClInclude>
+    <ClInclude Include="GUI\Include\LISTBOX.h">
+      <Filter>GUI\Include</Filter>
+    </ClInclude>
+    <ClInclude Include="GUI\Include\LISTVIEW.h">
+      <Filter>GUI\Include</Filter>
+    </ClInclude>
+    <ClInclude Include="GUI\Include\LISTWHEEL.h">
+      <Filter>GUI\Include</Filter>
+    </ClInclude>
+    <ClInclude Include="GUI\Include\MENU.h">
+      <Filter>GUI\Include</Filter>
+    </ClInclude>
+    <ClInclude Include="GUI\Include\MESSAGEBOX.h">
+      <Filter>GUI\Include</Filter>
+    </ClInclude>
+    <ClInclude Include="GUI\Include\MULTIEDIT.h">
+      <Filter>GUI\Include</Filter>
+    </ClInclude>
+    <ClInclude Include="GUI\Include\MULTIPAGE.h">
+      <Filter>GUI\Include</Filter>
+    </ClInclude>
+    <ClInclude Include="GUI\Include\PROGBAR.h">
+      <Filter>GUI\Include</Filter>
+    </ClInclude>
+    <ClInclude Include="GUI\Include\RADIO.h">
+      <Filter>GUI\Include</Filter>
+    </ClInclude>
+    <ClInclude Include="GUI\Include\SCROLLBAR.h">
+      <Filter>GUI\Include</Filter>
+    </ClInclude>
+    <ClInclude Include="GUI\Include\SIM.h">
+      <Filter>GUI\Include</Filter>
+    </ClInclude>
+    <ClInclude Include="GUI\Include\SIM_GetRegions.h">
+      <Filter>GUI\Include</Filter>
+    </ClInclude>
+    <ClInclude Include="GUI\Include\SLIDER.h">
+      <Filter>GUI\Include</Filter>
+    </ClInclude>
+    <ClInclude Include="GUI\Include\SPINBOX.h">
+      <Filter>GUI\Include</Filter>
+    </ClInclude>
+    <ClInclude Include="GUI\Include\TEXT.h">
+      <Filter>GUI\Include</Filter>
+    </ClInclude>
+    <ClInclude Include="GUI\Include\TREEVIEW.h">
+      <Filter>GUI\Include</Filter>
+    </ClInclude>
+    <ClInclude Include="GUI\Include\WIDGET.h">
+      <Filter>GUI\Include</Filter>
+    </ClInclude>
+    <ClInclude Include="GUI\Include\WM.h">
+      <Filter>GUI\Include</Filter>
+    </ClInclude>
+    <ClInclude Include="GUI\Include\WM_GUI.h">
+      <Filter>GUI\Include</Filter>
+    </ClInclude>
+    <ClInclude Include="GUI\Include\WM_Intern.h">
+      <Filter>GUI\Include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\Program Files\Microsoft Visual Studio\VC98\Include\BASETSD.H">
+      <Filter>Simulation</Filter>
+    </ClInclude>
+    <ClInclude Include="..\uCOSProject\Software\User\hmi\hmi.h">
+      <Filter>MyApp</Filter>
+    </ClInclude>
+    <ClInclude Include="Config\GUIConf.h">
+      <Filter>Config</Filter>
+    </ClInclude>
+    <ClInclude Include="..\uCOSProject\Software\User\hmi\resource\res.h">
+      <Filter>MyRes</Filter>
+    </ClInclude>
+    <ClInclude Include="..\uCOSProject\Software\STemWin\png\crc32.h">
+      <Filter>MyPNG</Filter>
+    </ClInclude>
+    <ClInclude Include="..\uCOSProject\Software\STemWin\png\deflate.h">
+      <Filter>MyPNG</Filter>
+    </ClInclude>
+    <ClInclude Include="..\uCOSProject\Software\STemWin\png\GUI_PNG_Private.h">
+      <Filter>MyPNG</Filter>
+    </ClInclude>
+    <ClInclude Include="..\uCOSProject\Software\STemWin\png\inffast.h">
+      <Filter>MyPNG</Filter>
+    </ClInclude>
+    <ClInclude Include="..\uCOSProject\Software\STemWin\png\inffixed.h">
+      <Filter>MyPNG</Filter>
+    </ClInclude>
+    <ClInclude Include="..\uCOSProject\Software\STemWin\png\inflate.h">
+      <Filter>MyPNG</Filter>
+    </ClInclude>
+    <ClInclude Include="..\uCOSProject\Software\STemWin\png\inftrees.h">
+      <Filter>MyPNG</Filter>
+    </ClInclude>
+    <ClInclude Include="..\uCOSProject\Software\STemWin\png\png.h">
+      <Filter>MyPNG</Filter>
+    </ClInclude>
+    <ClInclude Include="..\uCOSProject\Software\STemWin\png\pngconf.h">
+      <Filter>MyPNG</Filter>
+    </ClInclude>
+    <ClInclude Include="..\uCOSProject\Software\STemWin\png\pngdebug.h">
+      <Filter>MyPNG</Filter>
+    </ClInclude>
+    <ClInclude Include="..\uCOSProject\Software\STemWin\png\pnginfo.h">
+      <Filter>MyPNG</Filter>
+    </ClInclude>
+    <ClInclude Include="..\uCOSProject\Software\STemWin\png\pnglibconf.h">
+      <Filter>MyPNG</Filter>
+    </ClInclude>
+    <ClInclude Include="..\uCOSProject\Software\STemWin\png\pngpriv.h">
+      <Filter>MyPNG</Filter>
+    </ClInclude>
+    <ClInclude Include="..\uCOSProject\Software\STemWin\png\pngstruct.h">
+      <Filter>MyPNG</Filter>
+    </ClInclude>
+    <ClInclude Include="..\uCOSProject\Software\STemWin\png\trees.h">
+      <Filter>MyPNG</Filter>
+    </ClInclude>
+    <ClInclude Include="..\uCOSProject\Software\STemWin\png\zconf.h">
+      <Filter>MyPNG</Filter>
+    </ClInclude>
+    <ClInclude Include="..\uCOSProject\Software\STemWin\png\zlib.h">
+      <Filter>MyPNG</Filter>
+    </ClInclude>
+    <ClInclude Include="..\uCOSProject\Software\STemWin\png\zutil.h">
+      <Filter>MyPNG</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <Library Include="Simulation\GUISim.lib">
+      <Filter>Simulation</Filter>
+    </Library>
+    <Library Include="GUI\Library\STemWin532_WIN32.lib">
+      <Filter>GUI\Library</Filter>
+    </Library>
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Simulation\Simulation.res">
+      <Filter>Simulation</Filter>
+    </Resource>
+  </ItemGroup>
+</Project>

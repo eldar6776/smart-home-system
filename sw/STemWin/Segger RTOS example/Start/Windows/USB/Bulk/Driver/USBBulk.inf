@@ -1,0 +1,111 @@
+;
+; Generic USBBulk driver setup information file
+; Copyright (c) 2006-2015 by SEGGER Microcontroller GmbH & Co. KG
+;
+; This file supports:
+;     Windows 2000
+;     Windows XP
+;     Windows Server 2003 x86, x64
+;     Windows Vista x86, x64
+;     Windows 7 x86,x64
+;     Windows Server 2008 x86,x64
+;     Windows 8 x86,x64
+;     Windows 8.1 x86,x64
+;
+[Version]
+Signature="$Windows NT$"
+Provider=%MfgName%
+DriverPackageType=PlugAndPlay
+Class=USB
+ClassGUID={36FC9E60-C465-11CF-8056-444553540000}
+DriverVer=10/21/2015,2.70.05.0
+CatalogFile=USBBulk.cat
+
+[Manufacturer]
+%MfgName%=DeviceList,NT,NTamd64
+
+[DeviceList.nt]
+%DeviceDesc%=USBBulkInstall, USB\VID_8765&PID_1234
+%DeviceDesc%=USBBulkInstall, USB\VID_8765&PID_1121&MI_02
+
+[DeviceList.ntamd64]
+%DeviceDesc%=USBBulkInstall, USB\VID_8765&PID_1234
+%DeviceDesc%=USBBulkInstall, USB\VID_8765&PID_1121&MI_02
+
+[USBBulkInstall.ntx86]
+CopyFiles=USBBulkCopyFiles.ntx86
+
+[USBBulkInstall.ntamd64]
+CopyFiles=USBBulkCopyFiles.ntamd64
+
+[USBBulkInstall.ntx86.Services]
+Addservice = usbbulk, 0x00000002, USBBulkAddService.ntx86, USBBulkEventLog.ntx86
+
+[USBBulkInstall.ntamd64.Services]
+Addservice = usbbulk, 0x00000002, USBBulkAddService.ntamd64, USBBulkEventLog.ntamd64
+
+[USBBulkAddService.ntx86]
+DisplayName    = %USBBulk.SvcDesc%
+ServiceType    = 1                  ; SERVICE_KERNEL_DRIVER
+StartType      = 3                  ; SERVICE_DEMAND_START
+ErrorControl   = 1                  ; SERVICE_ERROR_NORMAL
+ServiceBinary  = %12%\USBBulk.sys
+
+[USBBulkAddService.ntamd64]
+DisplayName    = %USBBulk.SvcDesc%
+ServiceType    = 1                  ; SERVICE_KERNEL_DRIVER
+StartType      = 3                  ; SERVICE_DEMAND_START
+ErrorControl   = 1                  ; SERVICE_ERROR_NORMAL
+ServiceBinary  = %12%\USBBulkx64.sys
+
+[USBBulkEventLog.ntx86]
+AddReg=USBBulkEventLogAddReg.ntx86
+
+[USBBulkEventLog.ntamd64]
+AddReg=USBBulkEventLogAddReg.ntamd64
+
+[USBBulkEventLogAddReg.ntx86]
+HKR,,EventMessageFile,%REG_EXPAND_SZ%,"%%SystemRoot%%\System32\IoLogMsg.dll;%%SystemRoot%%\System32\drivers\USBBulk.sys"
+HKR,,TypesSupported,  %REG_DWORD%,7
+
+[USBBulkEventLogAddReg.ntamd64]
+HKR,,EventMessageFile,%REG_EXPAND_SZ%,"%%SystemRoot%%\System32\IoLogMsg.dll;%%SystemRoot%%\System32\drivers\USBBulkx64.sys"
+HKR,,TypesSupported,  %REG_DWORD%,7
+
+[USBBulkCopyFiles.ntx86]
+USBBulk.sys
+
+[USBBulkCopyFiles.ntamd64]
+USBBulkx64.sys
+
+[DestinationDirs]
+DefaultDestDir = 12
+USBBulkCopyFiles.ntx86 = 12
+USBBulkCopyFiles.ntamd64 = 12
+
+[SourceDisksNames.x86]
+1=%USBBulk.DiskName%,,
+
+[SourceDisksFiles.x86]
+USBBulk.sys = 1
+
+[SourceDisksNames.amd64]
+1=%USBBulk.DiskName%,,
+
+[SourceDisksFiles.amd64]
+USBBulkx64.sys = 1
+
+;---------------------------------------------------------------;
+[Strings]
+MfgName="Segger"
+DeviceDesc="USB Bulk driver"
+USBBulk.SvcDesc="USBBulk Device"
+USBBulk.DiskName="USBBulk Installation Disk"
+; Non-Localizable Strings, DO NOT MODIFY!
+REG_SZ         = 0x00000000
+REG_MULTI_SZ   = 0x00010000
+REG_EXPAND_SZ  = 0x00020000
+REG_BINARY     = 0x00000001
+REG_DWORD      = 0x00010001
+
+; *** EOF ***

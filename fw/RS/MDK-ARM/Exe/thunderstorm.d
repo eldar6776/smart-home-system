@@ -1,0 +1,10 @@
+.\exe\thunderstorm.o: ..\Src\Display\thunderstorm.c
+.\exe\thunderstorm.o: C:\Keil\ARM\ARMCC\Bin\..\include\stdlib.h
+.\exe\thunderstorm.o: ..\Inc\Resource.h
+.\exe\thunderstorm.o: ..\..\Middlewares\STemWin\inc\GUI.h
+.\exe\thunderstorm.o: ..\..\Middlewares\STemWin\inc\GUI_ConfDefaults.h
+.\exe\thunderstorm.o: ..\Inc\GUIConf.h
+.\exe\thunderstorm.o: ..\..\Middlewares\STemWin\inc\GUI_Type.h
+.\exe\thunderstorm.o: ..\..\Middlewares\STemWin\inc\LCD.h
+.\exe\thunderstorm.o: ..\..\Middlewares\STemWin\inc\Global.h
+.\exe\thunderstorm.o: ..\..\Middlewares\STemWin\inc\GUI_Version.h

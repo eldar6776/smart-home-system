@@ -1,0 +1,10 @@
+.\exe\scattered_clouds.o: ..\Src\Display\scattered_clouds.c
+.\exe\scattered_clouds.o: C:\Keil\ARM\ARMCC\Bin\..\include\stdlib.h
+.\exe\scattered_clouds.o: ..\Inc\Resource.h
+.\exe\scattered_clouds.o: ..\..\Middlewares\STemWin\inc\GUI.h
+.\exe\scattered_clouds.o: ..\..\Middlewares\STemWin\inc\GUI_ConfDefaults.h
+.\exe\scattered_clouds.o: ..\Inc\GUIConf.h
+.\exe\scattered_clouds.o: ..\..\Middlewares\STemWin\inc\GUI_Type.h
+.\exe\scattered_clouds.o: ..\..\Middlewares\STemWin\inc\LCD.h
+.\exe\scattered_clouds.o: ..\..\Middlewares\STemWin\inc\Global.h
+.\exe\scattered_clouds.o: ..\..\Middlewares\STemWin\inc\GUI_Version.h

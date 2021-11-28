@@ -1,0 +1,10 @@
+.\exe\few_clouds.o: ..\Src\Display\few_clouds.c
+.\exe\few_clouds.o: C:\Keil\ARM\ARMCC\Bin\..\include\stdlib.h
+.\exe\few_clouds.o: ..\Inc\Resource.h
+.\exe\few_clouds.o: ..\..\Middlewares\STemWin\inc\GUI.h
+.\exe\few_clouds.o: ..\..\Middlewares\STemWin\inc\GUI_ConfDefaults.h
+.\exe\few_clouds.o: ..\Inc\GUIConf.h
+.\exe\few_clouds.o: ..\..\Middlewares\STemWin\inc\GUI_Type.h
+.\exe\few_clouds.o: ..\..\Middlewares\STemWin\inc\LCD.h
+.\exe\few_clouds.o: ..\..\Middlewares\STemWin\inc\Global.h
+.\exe\few_clouds.o: ..\..\Middlewares\STemWin\inc\GUI_Version.h

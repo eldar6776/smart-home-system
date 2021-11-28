@@ -1,0 +1,26 @@
+  u ovom primjeru je uređaj(prekidac/termostat) za kontrolu 1 fainkoilera 3 dimabilna svjetla i 4 relejna svjetla
+  1 uređaj kontrolise sve (dim., releje i fainkoler)  
+  prvi uređaj  pri dodiru kruga pali prva dva dimabilna svjetla a 3 dimabilno svjetlo pali 30%  (ako je moguce i ima dovoljno ulaza da se pri ulasku aktiviranjem alarmnog senzora postize isti efekat kao i da se pritisnuo krug)
+  kad se pritisne jos jednom krug gase se SVA Svjetla osim 4 releja ako je bio upaljen i gasi se fainkoiler.
+   iz svake opcije poslije 10 sekundi mirovanja vraca se na pocetni ekran a kasnije na sat
+
+ kad se pritisnu opcije (3 crtice na slici L0) pojavi se slika L1
+ 
+ tu se odabere termostat slika T1 ili upravljanje rasvjetom slika L2
+ 
+opcije termostat na slici T1opis 
+
+ako se odabere upravljanjem rasvjetom otvori se slika L2
+NA POCETNOM EKRANU SELEKTOVANA JE CONTROLA  DIMABILNOG SVJETLA "light"
+tri svjetla koja se drzanjem dimaju 
+odabirom moze da se mjenja crveno svjetlo unutra ali nije obavezno. obavezno je crveno svjetlo na odabranom meniju light-led-out.
+
+drugi meni LED to su 3 relejna izlaza
+treci meni OUT  to je 4 relej koji mo pogucnosti se sam gasi nakon 4 sata ali nije obavezno.
+ a druga dva svjetla na meniu "OUT" ce biti aktiviranjem izlaza na centralnim osiguracima koji jos nema.
+ opcija Home vraca na pocetno.
+ 
+ 
+ 2 uređaj izgleda identicno i pali kontrole na prvom uređaju nekom svojom komunikacijom.
+ osnovna razlika je pocetni krug koji samo pali 3 led relij i 3 dimabilno svjetlo na 100% . kada se pritisne gasenje gasi 3 led relej i vraca 3 dimabilno na 30%.
+ 

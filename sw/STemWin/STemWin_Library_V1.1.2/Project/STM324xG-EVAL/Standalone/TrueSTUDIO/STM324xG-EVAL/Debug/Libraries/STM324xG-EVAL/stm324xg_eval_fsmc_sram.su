@@ -1,0 +1,3 @@
+stm324xg_eval_fsmc_sram.c:107:6:SRAM_Init	120	static
+stm324xg_eval_fsmc_sram.c:266:6:SRAM_WriteBuffer	0	static
+stm324xg_eval_fsmc_sram.c:286:6:SRAM_ReadBuffer	0	static

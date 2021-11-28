@@ -1,0 +1,71 @@
+PODESI IZLAZ RELEJA 
+***************************************************************************
+http://192.168.0.124/sysctrl.cgi?RELAY=1&VALUE=1
+
+
+PODESI IZLAZ DIMMERA 
+***************************************************************************
+http://192.168.0.124/sysctrl.cgi?DIMMER=1&VALUE=100
+
+
+PODESI TACNO VRIJEME
+***************************************************************************
+http://192.168.0.124/sysctrl.cgi?DATE=7090820&TIME=010300
+
+
+RESTARTUJ ADRESIRANI UREDJAJ
+***************************************************************************
+http://192.168.0.124/sysctrl.cgi?CMD=RESTART&ADDRESS=28
+
+
+UCITAJ DEFAULTNE VRIJEDNOSTI
+***************************************************************************
+http://192.168.0.124/sysctrl.cgi?CMD=DEFAULT&ADDRESS=101
+
+
+FORMATIRAJ EXTERNI FLASH
+***************************************************************************
+http://192.168.0.124/sysctrl.cgi?CMD=EXTFLASH&ADDRESS=101
+
+
+TRAZI INFO PREZENTACIJU 
+***************************************************************************
+http://192.168.0.124/sysctrl.cgi?CMD=GETSTATE&ADDRESS=101
+
+
+TRAZI TEMPERATURU TERMOSTATA
+***************************************************************************
+http://192.168.0.124/sysctrl.cgi?CMD=GETTEMP&ADDRESS=101
+
+
+PODESI TEMPERATURU TERMOSTATA
+***************************************************************************
+http://192.168.0.124/sysctrl.cgi?CMD=SETTEMP20&ADDRESS=101
+
+
+PODESI MOD TERMOSTATA
+***************************************************************************
+http://192.168.0.124/sysctrl.cgi?CMD=COOLING&ADDRESS=101
+http://192.168.0.124/sysctrl.cgi?CMD=HEATING&ADDRESS=101
+
+
+UPIS FIRMVERA
+***************************************************************************
+http://192.168.0.124/sysctrl.cgi?FILE=IC.BIN&ADDRESS=101
+
+
+UPIS FAJLA EXTERNE FLASH MEMORIJE
+***************************************************************************
+http://192.168.0.124/sysctrl.cgi?FILE=EXT.BIN&ADDRESS=235
+
+
+UPIS NOVOG BOOTLOADERA - NE KORISTI JOS, NIJE DOVOLJNO TESTIRANO
+***************************************************************************
+http://192.168.0.124/sysctrl.cgi?FILE=ICBL.BIN&ADDRESS=101
+
+
+KOMANDE ZA UPIS FAJLOVA NA APSOLUTNE ADRESE
+***************************************************************************
+http://192.168.0.124/sysctrl.cgi?FILE=IC.BIN&WRITE=2431647744&ADDRESS=101
+http://192.168.0.124/sysctrl.cgi?FILE=EXT.BIN&WRITE=2415919104&ADDRESS=101
+http://192.168.0.124/sysctrl.cgi?FILE=ICBL.BIN&WRITE=2431647744&ADDRESS=101

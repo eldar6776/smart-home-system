@@ -1,0 +1,2 @@
+bsp.c:43:10:BSP_Init	8	static
+bsp.c:85:6:BSP_Pointer_Update	24	static

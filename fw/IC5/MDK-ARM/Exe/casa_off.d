@@ -1,0 +1,10 @@
+.\exe\casa_off.o: ..\Src\Display\casa_off.c
+.\exe\casa_off.o: C:\Keil\ARM\ARMCC\Bin\..\include\stdlib.h
+.\exe\casa_off.o: ..\Inc\Resource.h
+.\exe\casa_off.o: ..\..\Middlewares\STemWin\inc\GUI.h
+.\exe\casa_off.o: ..\..\Middlewares\STemWin\inc\GUI_ConfDefaults.h
+.\exe\casa_off.o: ..\Inc\GUIConf.h
+.\exe\casa_off.o: ..\..\Middlewares\STemWin\inc\GUI_Type.h
+.\exe\casa_off.o: ..\..\Middlewares\STemWin\inc\LCD.h
+.\exe\casa_off.o: ..\..\Middlewares\STemWin\inc\Global.h
+.\exe\casa_off.o: ..\..\Middlewares\STemWin\inc\GUI_Version.h

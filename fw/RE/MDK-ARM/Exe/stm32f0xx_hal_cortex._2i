@@ -1,0 +1,6 @@
+--c99 -c --cpu Cortex-M0 -D__MICROLIB -g -O1 --apcs=interwork --split_sections -I ../Inc -I ../../Drivers/STM32F0xx/STM32F0xx_HAL_Driver/Inc -I ../../Drivers/STM32F0xx/STM32F0xx_HAL_Driver/Inc/Legacy -I ../../Drivers/STM32F0xx/CMSIS/Device/ST/STM32F0xx/Include -I ../../Drivers/STM32F0xx/CMSIS/Include -I ..\..\Common -I ..\..\Middlewares\TinyFrame -I ..\..\Middlewares\LuxNET
+-I.\RTE\_RS485_RelayExpander
+-IF:\Repository\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include
+-IF:\Repository\Packs\Keil\STM32F0xx_DFP\2.1.0\Drivers\CMSIS\Device\ST\STM32F0xx\Include
+-D__UVISION_VERSION="530" -D_RTE_ -DSTM32F030x6 -D_RTE_ -DUSE_HAL_DRIVER -DSTM32F030x6 -DCARD_STACKER -DAPPLICATION -DUSE_DEBUGGER
+-o .\exe\stm32f0xx_hal_cortex.o --omf_browse .\exe\stm32f0xx_hal_cortex.crf --depend .\exe\stm32f0xx_hal_cortex.d --feedback ".\Exe\rexp.fed" "../../Drivers/STM32F0xx/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal_cortex.c"

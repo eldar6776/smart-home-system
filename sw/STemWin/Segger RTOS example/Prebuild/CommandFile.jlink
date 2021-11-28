@@ -1,0 +1,6 @@
+speed 4000
+si SWD
+loadbin STM32F746_ST_STM32F746G_DISCO.bin, 0x08000000
+r
+g
+q

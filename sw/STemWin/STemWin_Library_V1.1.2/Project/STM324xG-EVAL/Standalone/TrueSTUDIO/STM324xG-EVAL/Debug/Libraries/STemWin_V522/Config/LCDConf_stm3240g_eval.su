@@ -1,0 +1,6 @@
+LCDConf_stm3240g_eval.c:128:13:LcdWriteReg	0	static
+LCDConf_stm3240g_eval.c:139:13:LcdWriteData	0	static
+LCDConf_stm3240g_eval.c:150:13:LcdWriteDataMultiple	0	static
+LCDConf_stm3240g_eval.c:163:13:LcdReadDataMultiple	0	static
+LCDConf_stm3240g_eval.c:184:6:LCD_X_Config	136	static
+LCDConf_stm3240g_eval.c:233:5:LCD_X_DisplayDriver	0	static

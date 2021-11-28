@@ -1,0 +1,106 @@
+﻿cl : command line warning D9035: option 'Gm' has been deprecated and will be removed in a future release
+  WinMain.c
+  SIMConf.c
+  LCDConf.c
+  GUIConf.c
+  GUIDEMO_ZoomAndRotate.c
+  GUIDEMO_WashingMachine.c
+  GUIDEMO_VScreen.c
+  GUIDEMO_Treeview.c
+  GUIDEMO_TransparentDialog.c
+  GUIDEMO_Start.c
+  GUIDEMO_Speedometer.c
+  GUIDEMO_Speed.c
+  GUIDEMO_Skinning.c
+  GUIDEMO_Resource.c
+  GUIDEMO_RadialMenu.c
+  GUIDEMO_Listview.c
+  GUIDEMO_Intro.c
+  GUIDEMO_ImageFlow.c
+  GUIDEMO_IconView.c
+  GUIDEMO_Graph.c
+  Generating Code...
+  Compiling...
+  GUIDEMO_Fading.c
+  GUIDEMO_Cursor.c
+  GUIDEMO_Conf.c
+  GUIDEMO_ColorBar.c
+  GUIDEMO_Bitmap.c
+  GUIDEMO_BarGraph.c
+  GUIDEMO_Automotive.c
+  GUIDEMO_AntialiasedText.c
+  GUIDEMO.c
+F:\Elektronika\Mikrokontroleri\ARM Cortex\fw\Segger example\Application\GUIDEMO.c(1098,16): warning C4013: 'PageMainTask' undefined; assuming extern returning int
+  welcome.c
+c1 : fatal error C1083: Cannot open source file: '..\uCOSProject\Software\User\hmi\welcome.c': No such file or directory
+  stat_bar.c
+c1 : fatal error C1083: Cannot open source file: '..\uCOSProject\Software\User\hmi\stat_bar.c': No such file or directory
+  res.c
+c1 : fatal error C1083: Cannot open source file: '..\uCOSProject\Software\User\hmi\resource\res.c': No such file or directory
+  menu.c
+c1 : fatal error C1083: Cannot open source file: '..\uCOSProject\Software\User\hmi\menu.c': No such file or directory
+  hmi.c
+c1 : fatal error C1083: Cannot open source file: '..\uCOSProject\Software\User\hmi\hmi.c': No such file or directory
+  about.c
+c1 : fatal error C1083: Cannot open source file: '..\uCOSProject\Software\User\hmi\about.c': No such file or directory
+  zutil.c
+c1 : fatal error C1083: Cannot open source file: '..\uCOSProject\Software\STemWin\png\zutil.c': No such file or directory
+  uncompr.c
+c1 : fatal error C1083: Cannot open source file: '..\uCOSProject\Software\STemWin\png\uncompr.c': No such file or directory
+  trees.c
+c1 : fatal error C1083: Cannot open source file: '..\uCOSProject\Software\STemWin\png\trees.c': No such file or directory
+  pngwutil.c
+c1 : fatal error C1083: Cannot open source file: '..\uCOSProject\Software\STemWin\png\pngwutil.c': No such file or directory
+  pngwtran.c
+c1 : fatal error C1083: Cannot open source file: '..\uCOSProject\Software\STemWin\png\pngwtran.c': No such file or directory
+  Generating Code...
+  Compiling...
+  pngwrite.c
+c1 : fatal error C1083: Cannot open source file: '..\uCOSProject\Software\STemWin\png\pngwrite.c': No such file or directory
+  pngwio.c
+c1 : fatal error C1083: Cannot open source file: '..\uCOSProject\Software\STemWin\png\pngwio.c': No such file or directory
+  pngtrans.c
+c1 : fatal error C1083: Cannot open source file: '..\uCOSProject\Software\STemWin\png\pngtrans.c': No such file or directory
+  pngset.c
+c1 : fatal error C1083: Cannot open source file: '..\uCOSProject\Software\STemWin\png\pngset.c': No such file or directory
+  pngrutil.c
+c1 : fatal error C1083: Cannot open source file: '..\uCOSProject\Software\STemWin\png\pngrutil.c': No such file or directory
+  pngrtran.c
+c1 : fatal error C1083: Cannot open source file: '..\uCOSProject\Software\STemWin\png\pngrtran.c': No such file or directory
+  pngrio.c
+c1 : fatal error C1083: Cannot open source file: '..\uCOSProject\Software\STemWin\png\pngrio.c': No such file or directory
+  pngread.c
+c1 : fatal error C1083: Cannot open source file: '..\uCOSProject\Software\STemWin\png\pngread.c': No such file or directory
+  pngpread.c
+c1 : fatal error C1083: Cannot open source file: '..\uCOSProject\Software\STemWin\png\pngpread.c': No such file or directory
+  pngmem.c
+c1 : fatal error C1083: Cannot open source file: '..\uCOSProject\Software\STemWin\png\pngmem.c': No such file or directory
+  pngget.c
+c1 : fatal error C1083: Cannot open source file: '..\uCOSProject\Software\STemWin\png\pngget.c': No such file or directory
+  pngerror.c
+c1 : fatal error C1083: Cannot open source file: '..\uCOSProject\Software\STemWin\png\pngerror.c': No such file or directory
+  png.c
+c1 : fatal error C1083: Cannot open source file: '..\uCOSProject\Software\STemWin\png\png.c': No such file or directory
+  inftrees.c
+c1 : fatal error C1083: Cannot open source file: '..\uCOSProject\Software\STemWin\png\inftrees.c': No such file or directory
+  inflate.c
+c1 : fatal error C1083: Cannot open source file: '..\uCOSProject\Software\STemWin\png\inflate.c': No such file or directory
+  inffast.c
+c1 : fatal error C1083: Cannot open source file: '..\uCOSProject\Software\STemWin\png\inffast.c': No such file or directory
+  infback.c
+c1 : fatal error C1083: Cannot open source file: '..\uCOSProject\Software\STemWin\png\infback.c': No such file or directory
+  IMAGE_PNG.c
+c1 : fatal error C1083: Cannot open source file: '..\uCOSProject\Software\STemWin\png\IMAGE_PNG.c': No such file or directory
+  GUI_PNG.c
+c1 : fatal error C1083: Cannot open source file: '..\uCOSProject\Software\STemWin\png\GUI_PNG.c': No such file or directory
+  deflate.c
+c1 : fatal error C1083: Cannot open source file: '..\uCOSProject\Software\STemWin\png\deflate.c': No such file or directory
+  Generating Code...
+  Compiling...
+  crc32.c
+c1 : fatal error C1083: Cannot open source file: '..\uCOSProject\Software\STemWin\png\crc32.c': No such file or directory
+  compress.c
+c1 : fatal error C1083: Cannot open source file: '..\uCOSProject\Software\STemWin\png\compress.c': No such file or directory
+  adler32.c
+c1 : fatal error C1083: Cannot open source file: '..\uCOSProject\Software\STemWin\png\adler32.c': No such file or directory
+  Generating Code...

@@ -1,0 +1,13 @@
+.\exe\fs.o: ..\Middlewares\HTTP_Server\fs.c
+.\exe\fs.o: ..\Middlewares\lwip141\src\include\lwip/opt.h
+.\exe\fs.o: ..\Middlewares\TFTP_Server\lwipopts.h
+.\exe\fs.o: ..\Middlewares\lwip141\src\include\lwip/debug.h
+.\exe\fs.o: ..\Middlewares\lwip141\src\include\lwip/arch.h
+.\exe\fs.o: ..\Middlewares\lwip141\port\arch\cc.h
+.\exe\fs.o: ..\Middlewares\lwip141\port\arch\cpu.h
+.\exe\fs.o: ..\Middlewares\lwip141\src\include\lwip/opt.h
+.\exe\fs.o: ..\Middlewares\lwip141\src\include\lwip/def.h
+.\exe\fs.o: ..\Middlewares\HTTP_Server\fs.h
+.\exe\fs.o: ..\Middlewares\HTTP_Server\fsdata.h
+.\exe\fs.o: C:\Keil\ARM\ARMCC\Bin\..\include\string.h
+.\exe\fs.o: ..\Middlewares\HTTP_Server\fsdata.c

@@ -1,0 +1,10 @@
+.\exe\roll_big.o: ..\Src\Display\roll_big.c
+.\exe\roll_big.o: C:\Keil\ARM\ARMCC\Bin\..\include\stdlib.h
+.\exe\roll_big.o: ..\Inc\Resource.h
+.\exe\roll_big.o: ..\..\Middlewares\STemWin\inc\GUI.h
+.\exe\roll_big.o: ..\..\Middlewares\STemWin\inc\GUI_ConfDefaults.h
+.\exe\roll_big.o: ..\Inc\GUIConf.h
+.\exe\roll_big.o: ..\..\Middlewares\STemWin\inc\GUI_Type.h
+.\exe\roll_big.o: ..\..\Middlewares\STemWin\inc\LCD.h
+.\exe\roll_big.o: ..\..\Middlewares\STemWin\inc\Global.h
+.\exe\roll_big.o: ..\..\Middlewares\STemWin\inc\GUI_Version.h

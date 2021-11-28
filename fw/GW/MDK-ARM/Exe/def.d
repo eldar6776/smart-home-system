@@ -1,0 +1,9 @@
+.\exe\def.o: ..\Middlewares\lwip141\src\core\def.c
+.\exe\def.o: ..\Middlewares\lwip141\src\include\lwip/opt.h
+.\exe\def.o: ..\Middlewares\TFTP_Server\lwipopts.h
+.\exe\def.o: ..\Middlewares\lwip141\src\include\lwip/debug.h
+.\exe\def.o: ..\Middlewares\lwip141\src\include\lwip/arch.h
+.\exe\def.o: ..\Middlewares\lwip141\port\arch\cc.h
+.\exe\def.o: ..\Middlewares\lwip141\port\arch\cpu.h
+.\exe\def.o: ..\Middlewares\lwip141\src\include\lwip/opt.h
+.\exe\def.o: ..\Middlewares\lwip141\src\include\lwip/def.h

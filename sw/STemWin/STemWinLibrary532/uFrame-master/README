@@ -1,0 +1,8 @@
+uFrame
+-------
+这是一个学习项目，基于sge800(http://code.google.com/p/sge800/)和ucgui
+
+TODO:
+1.WIFI、BT外设接口
+2.移植至MINI2440开发板上
+

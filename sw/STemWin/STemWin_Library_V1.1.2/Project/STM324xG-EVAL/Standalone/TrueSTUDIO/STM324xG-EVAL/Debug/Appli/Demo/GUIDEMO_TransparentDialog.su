@@ -1,0 +1,4 @@
+GUIDEMO_TransparentDialog.c:6872:13:_cbClient	16	static
+GUIDEMO_TransparentDialog.c:6913:13:_cbFrame	8	static
+GUIDEMO_TransparentDialog.c:6771:13:_cbWin	24	static
+GUIDEMO_TransparentDialog.c:7015:6:GUIDEMO_TransparentDialog	56	static

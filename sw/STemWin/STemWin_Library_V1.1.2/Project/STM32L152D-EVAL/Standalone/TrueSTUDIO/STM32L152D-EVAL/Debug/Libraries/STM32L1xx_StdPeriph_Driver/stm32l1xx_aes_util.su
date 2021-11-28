@@ -1,0 +1,6 @@
+stm32l1xx_aes_util.c:97:13:AES_ECB_Encrypt	64	static
+stm32l1xx_aes_util.c:183:13:AES_ECB_Decrypt	64	static
+stm32l1xx_aes_util.c:271:13:AES_CBC_Encrypt	80	static
+stm32l1xx_aes_util.c:371:13:AES_CBC_Decrypt	80	static
+stm32l1xx_aes_util.c:471:13:AES_CTR_Encrypt	80	static
+stm32l1xx_aes_util.c:572:13:AES_CTR_Decrypt	80	static

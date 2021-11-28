@@ -1,0 +1,9 @@
+.\exe\net_error.o: ..\Src\net_error.c
+.\exe\net_error.o: C:\Keil\ARM\ARMCC\Bin\..\include\stdlib.h
+.\exe\net_error.o: ..\Middlewares\STemWinLibrary532\inc\GUI.h
+.\exe\net_error.o: ..\Middlewares\STemWinLibrary532\inc\GUI_ConfDefaults.h
+.\exe\net_error.o: ..\Middlewares\Config\GUIConf.h
+.\exe\net_error.o: ..\Middlewares\STemWinLibrary532\inc\GUI_Type.h
+.\exe\net_error.o: ..\Middlewares\STemWinLibrary532\inc\LCD.h
+.\exe\net_error.o: ..\Middlewares\STemWinLibrary532\inc\Global.h
+.\exe\net_error.o: ..\Middlewares\STemWinLibrary532\inc\GUI_Version.h

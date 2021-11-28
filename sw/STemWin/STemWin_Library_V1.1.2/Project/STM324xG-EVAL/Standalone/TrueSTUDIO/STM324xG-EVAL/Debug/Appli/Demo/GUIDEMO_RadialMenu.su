@@ -1,0 +1,4 @@
+GUIDEMO_RadialMenu.c:1882:13:_cbMotion	24	static
+GUIDEMO_RadialMenu.c:1796:13:_cbDraw	48	static
+GUIDEMO_RadialMenu.c:1923:12:_Delay	8	static
+GUIDEMO_RadialMenu.c:2056:6:GUIDEMO_RadialMenu	56	static

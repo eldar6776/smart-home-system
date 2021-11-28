@@ -1,0 +1,10 @@
+.\exe\ladder_big.o: ..\Src\Display\ladder_big.c
+.\exe\ladder_big.o: C:\Keil\ARM\ARMCC\Bin\..\include\stdlib.h
+.\exe\ladder_big.o: ..\Inc\Resource.h
+.\exe\ladder_big.o: ..\..\Middlewares\STemWin\inc\GUI.h
+.\exe\ladder_big.o: ..\..\Middlewares\STemWin\inc\GUI_ConfDefaults.h
+.\exe\ladder_big.o: ..\Inc\GUIConf.h
+.\exe\ladder_big.o: ..\..\Middlewares\STemWin\inc\GUI_Type.h
+.\exe\ladder_big.o: ..\..\Middlewares\STemWin\inc\LCD.h
+.\exe\ladder_big.o: ..\..\Middlewares\STemWin\inc\Global.h
+.\exe\ladder_big.o: ..\..\Middlewares\STemWin\inc\GUI_Version.h

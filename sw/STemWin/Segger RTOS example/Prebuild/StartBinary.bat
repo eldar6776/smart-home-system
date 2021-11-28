@@ -1,0 +1,1 @@
+Jlink.exe -device STM32F746NG -CommanderScript CommandFile.jlink

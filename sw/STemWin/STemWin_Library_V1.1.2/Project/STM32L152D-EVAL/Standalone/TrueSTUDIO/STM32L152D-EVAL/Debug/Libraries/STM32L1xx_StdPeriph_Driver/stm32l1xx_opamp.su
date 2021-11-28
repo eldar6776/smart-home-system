@@ -1,0 +1,9 @@
+stm32l1xx_opamp.c:106:6:OPAMP_DeInit	0	static
+stm32l1xx_opamp.c:147:6:OPAMP_SwitchCmd	0	static
+stm32l1xx_opamp.c:176:6:OPAMP_Cmd	0	static
+stm32l1xx_opamp.c:205:6:OPAMP_LowPowerCmd	0	static
+stm32l1xx_opamp.c:232:6:OPAMP_PowerRangeSelect	0	static
+stm32l1xx_opamp.c:273:6:OPAMP_OffsetTrimmingModeSelect	0	static
+stm32l1xx_opamp.c:301:6:OPAMP_OffsetTrimConfig	20	static
+stm32l1xx_opamp.c:399:6:OPAMP_OffsetTrimLowPowerConfig	20	static
+stm32l1xx_opamp.c:493:12:OPAMP_GetFlagStatus	0	static
